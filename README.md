@@ -19,6 +19,16 @@ Thank you for considering contributing to Lumen! The contribution guide can be f
 
 If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
+## How to Use
+
+1. Running composer install
+2. Check on .env and create databse;
+3. Run command php artisan migrate
+4. Check on database and make sure there are new table
+5. Run command php artisan db:seed to generate data dummy from plugin faker laravel 
+6. Run command php -S localhost:port -t public
+7. Let's try on POSTMAN
+
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
